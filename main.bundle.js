@@ -480,24 +480,24 @@ ClicksService = __decorate([
 var Deck = (function () {
     function Deck() {
         this.deck = [
-            { type: 'Angular', imgUrl: '/assets/angular.png', isShown: false },
-            { type: 'React', imgUrl: '/assets/react.png', isShown: false },
-            { type: 'Backbone', imgUrl: '/assets/backbone.png', isShown: false },
-            { type: 'ES6', imgUrl: '/assets/es6.png', isShown: false },
-            { type: 'Grunt', imgUrl: '/assets/grunt.png', isShown: false },
-            { type: 'Gulp', imgUrl: '/assets/gulp.png', isShown: false },
-            { type: 'HTML5', imgUrl: '/assets/html5.png', isShown: false },
-            { type: 'Linux', imgUrl: '/assets/linux.png', isShown: false },
-            { type: 'MobX', imgUrl: '/assets/mobx.png', isShown: false },
-            { type: 'Mongo', imgUrl: '/assets/mongo.png', isShown: false },
-            { type: 'NodeJS', imgUrl: '/assets/node.png', isShown: false },
-            { type: 'Python', imgUrl: '/assets/python.png', isShown: false },
-            { type: 'Babel', imgUrl: '/assets/babel.png', isShown: false },
-            { type: 'Redux', imgUrl: '/assets/redux.png', isShown: false },
-            { type: 'Sass', imgUrl: '/assets/sass.png', isShown: false },
-            { type: 'Typescript', imgUrl: '/assets/typescript.png', isShown: false },
-            { type: 'Vue', imgUrl: '/assets/vue.png', isShown: false },
-            { type: 'Webpack', imgUrl: '/assets/webpack.png', isShown: false }
+            { type: 'Angular', imgUrl: './assets/angular.png', isShown: false },
+            { type: 'React', imgUrl: './assets/react.png', isShown: false },
+            { type: 'Backbone', imgUrl: './assets/backbone.png', isShown: false },
+            { type: 'ES6', imgUrl: './assets/es6.png', isShown: false },
+            { type: 'Grunt', imgUrl: './assets/grunt.png', isShown: false },
+            { type: 'Gulp', imgUrl: './assets/gulp.png', isShown: false },
+            { type: 'HTML5', imgUrl: './assets/html5.png', isShown: false },
+            { type: 'Linux', imgUrl: './assets/linux.png', isShown: false },
+            { type: 'MobX', imgUrl: './assets/mobx.png', isShown: false },
+            { type: 'Mongo', imgUrl: './assets/mongo.png', isShown: false },
+            { type: 'NodeJS', imgUrl: './assets/node.png', isShown: false },
+            { type: 'Python', imgUrl: './assets/python.png', isShown: false },
+            { type: 'Babel', imgUrl: './assets/babel.png', isShown: false },
+            { type: 'Redux', imgUrl: './assets/redux.png', isShown: false },
+            { type: 'Sass', imgUrl: './assets/sass.png', isShown: false },
+            { type: 'Typescript', imgUrl: './assets/typescript.png', isShown: false },
+            { type: 'Vue', imgUrl: './assets/vue.png', isShown: false },
+            { type: 'Webpack', imgUrl: './assets/webpack.png', isShown: false }
         ];
         this.deck;
     }
